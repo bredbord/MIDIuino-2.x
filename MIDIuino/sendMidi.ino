@@ -6,8 +6,10 @@
  *
  */
  
-boolean sendMidi(byte a, byte b, byte c) {  // Takes in three Midi bytes and writes them as binary values
-  Serial.write(a, BIN);
-  Serial.write(b, BIN);
-  Serial.write(c, BIN);
+boolean sendMidiNote(byte chan, byte note, byte vel) {  // Takes in three Midi bytes and writes them as binary values
+  Serial.println(chan, BIN);
+  Serial.println(note, BIN);
+  Serial.println(vel, BIN);
+  
+  return true;
 }

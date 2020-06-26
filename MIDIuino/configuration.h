@@ -52,4 +52,4 @@
 
 
 //Advanced--------------------------------------------------------------------------------
-#define BAUDRATE 9600; //define controller baud rate
+#define BAUDRATE 9600  //define controller baud rate
