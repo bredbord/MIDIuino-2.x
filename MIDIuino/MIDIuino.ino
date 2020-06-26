@@ -29,4 +29,9 @@
 
 //SETUP----------------------------
 
+void setup() {
+  Serial.begin(BAUDRATE); //initalize the serial com link at the specified baud rate in configuration.h
+  
+  
+}
 //LOOP-----------------------------

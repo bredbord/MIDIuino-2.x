@@ -26,9 +26,11 @@
 ///--------------------------------MAIN CONFIGURATION----------------------------------///
 //////////////////////////////////////////////////////////////////////////////////////////
 
-//BOARD SECTION
-//#define ARDUINO_UNO  // Uncomment if using Arduino Uno board
-#define ARDUINO_MEGA  // Uncomment if using Arduino Mega board
+//BOARD SECTION---------------------------------------------------------------------------
+
+#define ARDUINO_UNO  // Uncomment if using Arduino Uno board
+//#define ARDUINO_MEGA  // Uncomment if using Arduino Mega board
+
 
 //Basic Control Section-------------------------------------------------------------------
 
@@ -47,3 +49,7 @@
  *    For example: Button 0 (pin 22 on the Arduino Mega) will correspond to the first led on the strip (led 0), button 1 (pin 24) to the second led on the 
  *    strip (led 1) and so on.
  */
+
+
+//Advanced--------------------------------------------------------------------------------
+#define BAUDRATE 9600; //define controller baud rate
