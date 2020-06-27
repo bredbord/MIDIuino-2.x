@@ -28,8 +28,8 @@
 
 //BOARD SECTION---------------------------------------------------------------------------
 
-#define ARDUINO_UNO  // Uncomment if using Arduino Uno board
-//#define ARDUINO_MEGA  // Uncomment if using Arduino Mega board
+#define BOARD_UNO  // Uncomment if using Arduino Uno board
+//#define BOARD_MEGA  // Uncomment if using Arduino Mega board
 
 
 //Basic Control Section-------------------------------------------------------------------
