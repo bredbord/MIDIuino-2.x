@@ -31,7 +31,7 @@
 
 void setup() {
   Serial.begin(BAUDRATE); //initalize the serial com link at the specified baud rate in configuration.h
-  sendMidiNote(144, 0, 127);
+  sendMidiNote(1, 0, 127, true);
 }
 //LOOP-----------------------------
 
